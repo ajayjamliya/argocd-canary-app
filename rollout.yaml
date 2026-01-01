@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: canary-app
-        image: dockerforbegin/iciciproject:v2
+        image: dockerforbegin/iciciproject:v3
         ports:
         - containerPort: 80
   strategy:
